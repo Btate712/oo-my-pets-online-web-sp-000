@@ -14,6 +14,9 @@ class Owner
     "I am a #{species}."
   end
 
+  def pets
+    @pets = {:fishes => [], :dogs => [], :cats => []}
+
   def self.all
     @@all
   end
