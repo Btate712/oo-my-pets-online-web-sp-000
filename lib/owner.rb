@@ -8,7 +8,7 @@ class Owner
   def species
     "human"
   end
-  
+
   def self.all
     @@all
   end
